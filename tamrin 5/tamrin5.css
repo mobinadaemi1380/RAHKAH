@@ -1,0 +1,363 @@
+html{
+    
+}
+
+body{
+    background-color: pink;
+
+}
+.title{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(225, 93, 137);
+}
+.main{
+    width: 100wh;
+    display: flex;
+    justify-content: space-between;
+}
+.RGB,.RGBA{
+    width: 50%;
+    display: inline;
+    height: 70vh;
+
+
+}
+.RGBA{
+    border-left: 2px solid black;
+}
+ p,span{
+    font-size: 40px;
+    display: block;
+    text-align: center;
+}
+.RGB div div{
+    width: 4rem;
+    height: 4rem;
+    border: solid 1px black;
+    display: inline-block ;
+    border-radius: 100%;
+    margin: 1rem;
+}
+.RGBA div div{
+    margin: 1rem;
+    width: 8rem;
+    height: 5rem;
+    border: 2px solid black;
+    display: inline-block;
+     
+}
+.circle-1{
+    background-color: rgb(102, 232, 232);
+}
+.circle-2{
+    background-color: rgb(128, 102, 232);
+}
+.circle-3{
+    background-color: rgb(76, 0, 109);
+}
+.circle-4{
+    background-color: rgb(191, 232, 102);
+}
+.circle-5{
+    background-color: rgb(232, 102, 232);
+}
+.circle-6{
+    background-color: rgb(196, 0, 0);
+}
+.circle-7{
+    background-color: rgb(132, 232, 102);
+}
+.circle-8{
+    background-color: rgb(232, 174, 102);
+}
+.circle-9{
+    background-color: rgb(232, 122, 102);
+}
+.circle-10{
+    background-color: rgb(88, 19, 0);
+}
+.circle-11{
+    background-color: rgb(111, 246, 20);
+}
+.circle-12{
+    background-color: rgb(232, 102, 165);
+}
+.circle-13{
+    background-color: rgb(20, 17, 23);
+}
+
+.circle-14{
+    background-color: rgb(255, 255, 255);
+}
+.circle-15{
+    background-color: rgb(0, 0, 0);
+}
+.circle-16{
+    background-color: rgb(10, 15, 73);
+}
+.circle-17{
+    background-color: rgb(151, 100, 66);
+}
+.circle-18{
+    background-color: rgb(167, 142, 0);
+}
+.circle-19{
+    background-color: rgb(0, 56, 56);
+}
+.circle-20{
+    background-color: rgb(7, 219, 92);
+}
+.circle-21{
+    background-color: rgb(206, 209, 31);
+}
+.circle-22{
+    background-color: rgb(227, 12, 12);
+}
+.circle-23{
+    background-color: rgb(160, 77, 176);
+}
+.circle-24{
+    background-color: rgb(6, 117, 117);
+}
+.circle-25{
+    background-color: rgb(237, 91, 0);
+}
+.circle-26{
+    background-color: rgb(117, 6, 100);
+}
+.circle-27{
+    background-color: rgb(13, 242, 242);
+}
+.circle-28{
+    background-color: rgb(5, 88, 231);
+}
+
+
+/*  RGBA */
+
+
+.box-1{
+   
+    background-color: rgb(128, 0, 128,1);
+}
+.box-2{
+   
+    background-color: rgb(128, 0, 128,0.9);
+}
+
+.box-3{
+   
+    background-color: rgb(128, 0, 128,0.8);
+}
+
+.box-4{
+   
+    background-color: rgb(128, 0, 128,0.7);
+}
+
+.box-5{
+   
+    background-color: rgb(128, 0, 128,0.6);
+}
+
+.box-6{
+   
+    background-color: rgb(128, 0, 128,0.5);
+}
+.box-7{
+   
+    background-color: rgb(128, 0, 128,0.4);
+}
+.box-8{
+   
+    background-color: rgb(128, 0, 128,0.3);
+}
+.box-9{
+   
+    background-color: rgb(128, 0, 128, 0.2);
+}
+.box-10{
+   
+    background-color: rgb(128, 0, 128, 0.1);
+}
+
+.box-11{
+   
+    background-color: rgb(128, 0, 128, 0);
+}
+.box-1 p{
+    margin: 1rem auto;
+    color: rgba(220, 20, 60, 0);
+}
+.box-2 p{
+    margin: 1rem auto;
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.box-3 p{
+    margin: 1rem auto;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.box-4 p{
+    margin: 1rem auto;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.box-5 p{
+    margin: 1rem auto;
+    color: rgba(4, 0, 1, 0.4);
+}
+
+.box-6 p{
+    margin: 1rem auto;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.box-7 p{
+    margin: 1rem auto;
+    color: rgba(21, 2, 6, 0.6);
+}
+
+.box-8 p{
+    margin: 1rem auto;
+    color: rgba(21, 1, 5, 0.7);
+}
+
+.box-9 p{
+    margin: 1rem auto;
+    color: rgba(17, 1, 4, 0.8);
+}
+.box-10 p{
+    margin: 1rem auto;
+    color: rgba(15, 1, 4, 0.9);
+}
+
+.box-11 p{
+    margin: 1rem auto;
+    color: rgb(15, 1, 4);
+    color: pu;
+}
+
+/* hsl */
+
+.HSL{
+    margin: 7rem ;
+    border-bottom: 2px solid black;
+}
+.hsl-box{
+    display: flex;
+    justify-content: center;
+    
+}
+.Rectangle-left div,.Rectangle-right div{
+    display: inline-block;
+    height: 2rem;
+    width: 4rem;
+    border: 2px solid black;
+   margin: 7rem .5rem;
+}
+
+/* مقایسه ی میزان سبکی رنگ */
+
+.Rectangle1{
+    background-color: hsl(10, 10%, 10%);
+}
+.Rectangle2{
+    background-color: hsl(10, 10%, 20%);
+}
+.Rectangle3{
+    background-color: hsl(10, 50%, 30%);
+}
+
+.Rectangle4{
+    background-color: hsl(10, 50%, 40%);
+}
+
+.Rectangle5{
+    background-color: hsl(10, 50%, 50%);
+}
+
+.Rectangle6{
+    background-color: hsl(10, 50%, 60%);
+}
+
+.Rectangle7{
+    background-color: hsl(10, 50%, 70%);
+}
+.Rectangle8{
+    background-color: hsl(10, 50%, 80%);
+}
+.Rectangle9{
+    background-color: hsl(10, 50%, 90%);
+}
+.Rectangle10{
+    background-color: hsl(10, 50%, 100%);
+}
+
+/* secend line */
+/* مقایسه ی میزان اشباع رنگ */
+
+.Rectangle11{
+    background-color: hsl(10,10%, 150%);
+}
+
+.Rectangle12{
+    background-color: hsl(10, 20%, 50%);
+}
+
+.Rectangle13{
+    background-color: hsl(10, 30%, 50%);
+}
+
+.Rectangle14{
+    background-color: hsl(10, 40%, 50%);
+}
+
+.Rectangle15{
+    background-color: hsl(10, 50%, 50%);
+}
+
+.Rectangle16{
+    background-color: hsl(10, 60%, 50%);
+}
+
+.Rectangle17{
+    background-color: hsl(10, 70%, 50%);
+}
+
+.Rectangle18{
+    background-color: hsl(10, 80%, 50%);
+}
+.Rectangle19{
+    background-color: hsl(10, 90%, 50%);
+}
+.Rectangle20{
+    background-color: hsl(10, 100%, 50%);
+}
+
+
+
+/* selector ~ and + */
+
+
+ .slector1 p ~span{
+    color: aqua;
+}
+.slector2{
+    margin-top: 7rem;
+    border-top: 2px solid black;
+}
+
+.slector2 div + p{
+    color: rgb(20, 20, 183);
+}
+
+
+
+
+
+
+
+
