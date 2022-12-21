@@ -1,0 +1,40 @@
+body{
+    background-color: rgba(20, 125, 210, 0.541);
+}
+
+.container{
+    width: 50%;
+    margin: 5% auto;
+    background-color: rgb(16, 71, 222);
+    padding: 20px;
+    border-radius: 20px;
+}
+.container input{
+    background-color: #ccc;
+    display: block;
+    margin: 2% auto;
+    width: 50%;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+i{
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+}
+table{
+    margin-top: 50px;
+}
+td{
+    border: 2px solid #ccc;
+    text-decoration: none;
+    width: 300px;
+    height: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    
+
+   
+}
