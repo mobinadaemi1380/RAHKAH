@@ -1,0 +1,29 @@
+body{
+    background-color: chocolate;
+}
+#popup{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    
+    top: 0px;
+    
+}
+.form{
+    width: 35%;
+    height: 60vh;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 4rem;
+
+
+}
+button{
+    width: 60px;
+    height: 60px;
+    background-color: cornflowerblue;
+}
