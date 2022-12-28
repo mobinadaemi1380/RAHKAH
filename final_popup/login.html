@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>yes</title>
+    <script src="./jquery-3.6.3.min.js"></script>
+ 
+  </head>
+  <script>
+          $(document).ready(function () {
+        $.ajax({
+          url: "./ostan.php",
+          contentType: "application/json; charset=utf-8",
+          type: "GET",
+          dataType: "json",
+
+          success: function (response) {
+            response.forEach(function (element) {
+              $("#ostanha").append(
+                "<option value= $[element] id=" +
+                  element.id +
+                  "> " +
+                  element.name +
+                  "</option>"
+              );
+            });
+          },
+          error: function (response) {
+            alert("error");
+          },
+        });
+
+        $("#ostanha").on("change", function () {
+          var id = $(this).children("option:selected").attr("id");
+          $("#shahrestan").empty();
+          console.log(id);
+          $.ajax({
+            url: "./shahrestan.php",
+            contentType: "application/json; charset=utf-8",
+            type: "GET",
+            dataType: "json",
+
+            success: function (data) {
+              data.forEach(function (data) {
+                if (data.ostanId == id) {
+                  $("#shahrestan").append(
+                    "<option value= "+data+" id=" +
+                      data.id +
+                      "> " +
+                      data.name +
+                      "</option>"
+                  );
+                }
+              });
+            },
+            error: function (data) {
+              alert("error");
+            },
+          });
+        });
+      });
+  </script>
+  <style>
+    body{
+      direction: rtl;
+      font-size: 50px;
+    }
+    input,select{
+      width: 200px;
+      height: 30px;
+
+    }
+    select{
+      margin-bottom: 100px;
+    }
+    .container{
+      background-color: cadetblue;
+      width: 30%;
+      margin: 40px auto;
+      border-radius: 20px;
+    }
+  </style>
+  <body>
+
+   
+    </script>
+    <div class="container" style="text-align: center;">
+      <p>ثبت نام</p>
+      <form action="">
+           
+          <input type="text" placeholder="نام" /><br>
+       
+          <input type="text" placeholder="مبایل" /><br>
+        
+      
+        <input type="email" placeholder="ایمیل" /><br>
+        
+            <input
+              type="hidden"
+              name="submitselect"
+              value=""
+              id="submitselect"
+            />
+            <select id="ostanha" required>
+              <option value="">استان</option>
+            </select>
+            <select id="shahrestan" required>
+              <option value="">شهرستان</option>
+            </select>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
